@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+table{
+    width: 100%;
+    /* border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    ... */
+    margin: 10px 0 10px 0;
+}
+
+td{
+    border: 0.5px solid rgb(17, 149, 238);
+}
+
+h1, h2{
+    background-color: rgb(187, 124, 247);
+    color:rgb(58, 24, 90)
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+    font-family: Inter, sans-serif; 
+    /* fontes sem serifa, "voltinhas" 
+    google fonts
+    proporções:
+    80-10-10
+    70-15-15*/
+}
+
+h1{
+    font-family: Impact;
+}
+
+p{
+    text-align: left;
+}
+
+img{
+    border: 10px solid rebeccapurple;
+    border-radius: 10px;
+}
+
+button, input[type="submit"]{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+button:hover, input[type="submit"]:hover{
+    background-color: rgb(208, 181, 233);
+    color: rgb(250, 7, 169);
+}
+
+ul,li{
+    font-size: 18px;
+}
+
+a{
+    color:rgb(23, 150, 150);
+    text-decoration: none;
+    /* display: none; */
+    /* n aparece, ou transparente */
+    opacity:0;
+    transition: all 1s ease;
+}
+
+a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
